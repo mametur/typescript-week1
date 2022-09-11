@@ -20,4 +20,4 @@ const encryptText = (plainText, shift) => {
     return cipherArr.join("")
 }
 
-module.exports = { encryptText };
+export { encryptText } ;
